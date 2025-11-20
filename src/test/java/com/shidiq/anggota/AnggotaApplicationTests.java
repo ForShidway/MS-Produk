@@ -1,10 +1,10 @@
-package com.shidiq.produk;
+package com.shidiq.anggota;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProdukApplicationTests {
+class AnggotaApplicationTests {
 
 	@Test
 	void contextLoads() {

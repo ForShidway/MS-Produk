@@ -1,4 +1,4 @@
-package com.shidiq.produk.model;
+package com.shidiq.anggota.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,13 +8,13 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Produk {
+public class Anggota {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    private String nim;
     private String nama;
-    private Double harga;
-    private String satuan;
+    private String alamat;
+    private String jenis_kelamin;
 }
